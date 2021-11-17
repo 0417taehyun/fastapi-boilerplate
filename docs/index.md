@@ -26,7 +26,7 @@ Here is a list of boilerplate.
 
 ## Clone a specific boilerplate
 
-Clone a specific boilerplate which looks like ...
+Clone a specific boilerplate using branch which looks like ...
 
 <div class="termy">
     ```sh
