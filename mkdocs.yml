@@ -58,9 +58,6 @@ markdown_extensions:
     generic: true
 nav:
 - Introduction: index.md
-- Languages:
-  - en: /
-  - ko: /ko/
 - Plain Synchronous RESTful API: plain-synchronous-restful-api.md
 - Plain Asynchronous RESTful API: plain-asynchronous-restful-api.md
 - Tags: tags.md
@@ -68,11 +65,6 @@ extra:
   anaylytics:
     provider: google
     property: G-Q4X9B4PNF7
-  alternate:
-  - link: /
-    name: English
-  - link: /ko/
-    name: 한국어
 extra_css:
 - css/termynal.css
 - css/custom.css
