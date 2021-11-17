@@ -5,6 +5,8 @@ description: "The List of FastAPI Boilerplate like using Sentry, CircleCI, Alemb
 
 # FastAPI Boilerplate Collection
 
+<a href="https://github.com/0417taehyun/fastapi-boilerplate" target="_blank"><img src="images/background.png" /></a>
+
 ## Boilerplate List
 
 Here is a list of boilerplate.

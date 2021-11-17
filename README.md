@@ -1,18 +1,12 @@
-## :rocket: FastAPI Boilerplate Collection
+![Background Image](./docs/images/background.png)
 
 ### Introduction
 
-This is a **collection of FastAPI boilerplate** which made by [weekwith.me](https://www.weekwith.me).  
+This is a **collection of FastAPI boilerplate** which made by [weekwith.me](https://www.weekwith.me) :rocket:  
 
-### Directory
+You can read a specification of each boilerplate in [Website](https://fastapi.weekwith.me).  
 
-```bash
-├── Repository
-└── docs
-```
-
-* `Repository` : Set of all boilerplates. It is specified by number
-* `docs` : A document for describing each boilerplates. You can check it [Here](https://fastapi.weekwith.me)
+A directory, `Repository` is a set of all boilerplates. It is specified by number and it includes all the source code. You can clone a specific boilerplate by using `branch`.
 
 ### List of Boilerplate
 
@@ -26,15 +20,14 @@ Here is a list of boilerplates.
     * :construction: which means **Work In Progress**
     * :see_no_evil: which means **Not Start**  
 
-> **warning**
+> :warning: **warning**
 > 
-> If you don't know how to use git command, `branch`
-> Check [Clone a specific boilerplate](https://fastapi.weekwith.me/#clone-a-specific-boilerplate)
+> If you don't know how to use git command, `branch`, check [Clone a specific boilerplate](https://fastapi.weekwith.me/#clone-a-specific-boilerplate)
 
 |Directory|Description|Branch|Status|
 |:-------:|:--------:|:-----:|:----:|
-|[01](./Repository/01/README.md)|[Plain synchronous RESTful API](https://fastapi.weekwith.me/plain-synchronous-restful-api/)|`plain-synchronous-restful-api`|:construction:|
-|[02](./Repository/02/README.md)|[Plain asynchronous RESTful API](https://fastapi.weekwith.me/plain-asynchronous-restful-api/)|`plain-asynchronous-restful-api`|:construction:|
+|[01](./Repository/01/)|[Plain synchronous RESTful API](https://fastapi.weekwith.me/plain-synchronous-restful-api/)|`plain-synchronous-restful-api`|:construction:|
+|[02](./Repository/02/)|[Plain asynchronous RESTful API](https://fastapi.weekwith.me/plain-asynchronous-restful-api/)|`plain-asynchronous-restful-api`|:construction:|
 
 
 ### Issues
