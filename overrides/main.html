@@ -7,14 +7,16 @@
 {% block disqus %}
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7400981351083358"
     crossorigin="anonymous"></script>
-    <div id="__comments">
-        <script src="https://utteranc.es/client.js"
-            repo="0417taehyun/fastapi-boilerplate"
-            issue-term="pathname"
-            label="Comment"
-            theme="dark-blue"
-            crossorigin="anonymous"
-            async>
-        </script>
-    </div>
+    {% if not page.is_tags %}
+        <div id="__comments">
+            <script src="https://utteranc.es/client.js"
+                repo="0417taehyun/fastapi-boilerplate"
+                issue-term="pathname"
+                label="Comment"
+                theme="dark-blue"
+                crossorigin="anonymous"
+                async>
+            </script>
+        </div>
+    {% endif %}
 {% endblock %}
