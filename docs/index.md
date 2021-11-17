@@ -4,14 +4,28 @@ title: "FastAPI Boilerplate Collection"
 
 # FastAPI Boilerplate Collection
 
+## Boilerplate List
 
-|Description|Branch|
-|:--------:|:-----:|
-|[Plain synchronous RESTful API](plain-synchronous-restful-api.md)|`plain-synchronous-restufl-api`|
-|[Plain asynchronous RESTful API](plain-asynchronous-restful-api.md)|`plain-asynchronous-restufl-api`|
+Here is a list of boilerplate.
+
+* **Description** : A short description of boilerplate. You can move to specification of it by click.
+* **Branch** : You can clone a specific boilerplate by branch.
+* **Status** :
+    * :white_check_mark: which means **Complete**
+    * :construction: which means **Work In Progress**
+    * :see_no_evil: which means **Not Start**  
+* **Last Updated** : Last updated date.
 
 
-Which looks like ...
+
+|Description|Branch|Status|Last Updated|
+|:--------:|:-----:|:----:|:----------:|
+|[Plain synchronous RESTful API](plain-synchronous-restful-api.md)|`plain-synchronous-restufl-api`|:construction:|November 18th, 2021|
+|[Plain asynchronous RESTful API](plain-asynchronous-restful-api.md)|`plain-asynchronous-restufl-api`|:construction:|November 18th, 2021|
+
+## Clone a specific boilerplate
+
+Clone a specific boilerplate which looks like ...
 
 <div class="termy">
     ```sh
@@ -27,7 +41,19 @@ Which looks like ...
     ```
 </div>
 
+## Install packages
 
+Install packages which looks like ...
+
+!!! warning
+
+    It used [Poetry](https://python-poetry.org/) for managing pacakges.
+
+    So before you install all the packages in each boilerplate by `pyproject.toml` file, you shoud install Poetry first.
+
+    Ex. `pip install poetry`
+
+    Also, it is recommended to user virtual environment [MiniConda](https://docs.conda.io/en/latest/miniconda.html) for managing serveral projects' packages.
 
 <div class="termy">
     ```sh

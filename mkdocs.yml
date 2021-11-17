@@ -64,7 +64,7 @@ nav:
 extra:
   anaylytics:
     provider: google
-    property: G-Q4X9B4PNF7
+    property: G-SS72TCWT45
 extra_css:
 - css/termynal.css
 - css/custom.css
