@@ -1,5 +1,6 @@
 ---
 title: "FastAPI Boilerplate Collection"
+description: "The List of FastAPI Boilerplate like using Sentry, CircleCI, Alembic, GitHub Actions, WebSocket, etc."
 ---
 
 # FastAPI Boilerplate Collection

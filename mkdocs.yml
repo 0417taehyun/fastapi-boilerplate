@@ -56,6 +56,10 @@ markdown_extensions:
 - pymdownx.keys
 - pymdownx.arithmatex:
     generic: true
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+
 nav:
 - Introduction: index.md
 - Plain Synchronous RESTful API: plain-synchronous-restful-api.md
