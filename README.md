@@ -26,9 +26,10 @@ Here is a list of boilerplates.
     * :construction: which means **Work In Progress**
     * :see_no_evil: which means **Not Start**  
 
-!!! info
-
-    If you don't know how to use git command, `branch`, check [Clone a specific boilerplate](https://fastapi.weekwith.me/#clone-a-specific-boilerplate).  
+> **warning**
+> 
+> If you don't know how to use git command, `branch`
+> Check [Clone a specific boilerplate](https://fastapi.weekwith.me/#clone-a-specific-boilerplate)
 
 |Directory|Description|Branch|Status|
 |:-------:|:--------:|:-----:|:----:|
