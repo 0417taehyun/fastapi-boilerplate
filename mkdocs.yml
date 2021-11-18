@@ -7,7 +7,7 @@ site_dir: site
 
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: resources
   language: en
   palette:
   - scheme: default
@@ -25,12 +25,13 @@ theme:
   - content.code.annotate
   icon:
     repo: fontawesome/brands/github-alt
-  logo: images/logo.svg
-  favicon: images/favicon.png
+  logo: resources/images/logo.svg
+  favicon: resources/images/favicon.png
   
 repo_name: GitHub
 repo_url: https://github.com/0417taehyun/fastapi-boilerplate
 edit_uri: ''
+
 plugins:
 - search
 - markdownextradata:
