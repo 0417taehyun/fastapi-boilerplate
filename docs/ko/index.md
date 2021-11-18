@@ -21,8 +21,8 @@ description: "Sentry, CircleCI, Alembic, GitHub Actions, WebSocket 기타 등등
 
 |설명|브랜치|상태|마지막 수정|
 |:--------:|:-----:|:----:|:----------:|
-|[간단한 동기적 RESTful API](simple-synchronous-restful-api.md)|`simple-synchronous-restufl-api`|:construction:|November 18th, 2021|
-|[간단한 비동기적 RESTful API](simple-asynchronous-restful-api.md)|`simple-asynchronous-restufl-api`|:construction:|November 18th, 2021|
+|[간단한 동기적 RESTful API](simple-synchronous-restful-api.md)|`simple-synchronous-restufl-api`|:construction:|2021년 11월 18일|
+|[간단한 비동기적 RESTful API](simple-asynchronous-restful-api.md)|`simple-asynchronous-restufl-api`|:construction:|2021년 11월 18일|
 
 ## 특정 보일러플레이트 복제
 
