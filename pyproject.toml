@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "plain-asynchronous-restful-api"
+name = "simple-asynchronous-restful-api"
 version = "1"
-description = "Plain asynchronous RESTful API"
+description = "Simple asynchronous RESTful API"
 authors = ["weekwith.me <leedobby@weekwith.me>"]
 license = "MIT"
 
