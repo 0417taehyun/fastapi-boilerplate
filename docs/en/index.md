@@ -54,9 +54,9 @@ Install packages which looks like ...
 
     So before you install all the packages in each boilerplate by `pyproject.toml` file, you shoud install Poetry first.
 
-    Ex. `pip install poetry`
+    Ex. `pip install poetry`.
 
-    Also, it is recommended to user virtual environment [MiniConda](https://docs.conda.io/en/latest/miniconda.html) for managing serveral projects' packages.
+    Also, it is recommended to use virtual environment like [MiniConda](https://docs.conda.io/en/latest/miniconda.html) for managing serveral projects' packages.
 
 <div class="termy">
     ```sh

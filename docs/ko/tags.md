@@ -1,8 +1,8 @@
 ---
-title: "Tag"
+title: "태그"
 ---
 
-# Tag
+# 태그
 
 
 [TAGS]

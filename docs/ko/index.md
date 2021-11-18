@@ -48,13 +48,14 @@ description: "Sentry, CircleCI, Alembic, GitHub Actions, WebSocket 기타 등등
 
 !!! warning
 
-    It used [Poetry](https://python-poetry.org/) for managing pacakges.
+    패키지 관리를 위해 [Poetry](https://python-poetry.org/)를 사용합니다.  
 
-    So before you install all the packages in each boilerplate by `pyproject.toml` file, you shoud install Poetry first.
+    따라서 `pyproject.toml`을 활용하여 각 보일러플레이트의 모든 패키지를 설치하기 이전에, 먼저 Poetry를 설치해야 합니다.  
 
-    Ex. `pip install poetry`
+    예를 들어 `pip install poetry`와 같습니다.
 
-    Also, it is recommended to user virtual environment [MiniConda](https://docs.conda.io/en/latest/miniconda.html) for managing serveral projects' packages.
+    또한, 여러 프로젝트의 패키지 관리를 위해 [미니콘다](https://docs.conda.io/en/latest/miniconda.html)와 같은 가상 환경을 사용하는 걸 추천드립니다.
+
 
 <div class="termy">
     ```sh
