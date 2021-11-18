@@ -25,7 +25,7 @@ theme:
   - content.code.annotate
   icon:
     repo: fontawesome/brands/github-alt
-    logo: assets/logo.sv
+    logo: assets/logo
   favicon: assets/favicon.png
 
 repo_name: GitHub
