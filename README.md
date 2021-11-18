@@ -1,1 +1,1 @@
-# :rocket: Plain Asynchronous RESTful API
+# :rocket: Simple Asynchronous RESTful API
