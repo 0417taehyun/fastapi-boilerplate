@@ -1,4 +1,4 @@
-![Background Image](./docs/images/background.png)
+![Background Image](./docs/en/images/background.png)
 
 ### Introduction
 
