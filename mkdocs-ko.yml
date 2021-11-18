@@ -2,13 +2,13 @@ site_name: FastAPI Boilerplate Collection
 site_description: FastAPI Boilerplate Collection
 site_url: https://fastapi.weekwith.me/
 
-docs_dir: docs/en
-site_dir: site
+docs_dir: docs/ko
+site_dir: site/ko
 
 theme:
   name: material
   custom_dir: overrides
-  language: en
+  language: kr
   palette:
   - scheme: default
     toggle:
@@ -27,10 +27,11 @@ theme:
     repo: fontawesome/brands/github-alt
   logo: images/logo.svg
   favicon: images/favicon.png
-  
+
 repo_name: GitHub
 repo_url: https://github.com/0417taehyun/fastapi-boilerplate
 edit_uri: ''
+
 plugins:
 - search
 - markdownextradata:
@@ -66,23 +67,23 @@ markdown_extensions:
     emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
-- Introduction: index.md
-- Simple Synchronous RESTful API: simple-synchronous-restful-api.md
-- Simple Asynchronous RESTful API: simple-asynchronous-restful-api.md
-- Tags: tags.md
+- 소개: index.md
+- 간단한 동기적 RESTful API: simple-synchronous-restful-api.md
+- 간단한 비동기적 RESTful API: simple-asynchronous-restful-api.md
+- 태그: tags.md
 
 extra:
   anaylytics:
     provider: google
     property: G-SS72TCWT45
   alternate:
-    - name: English
+    - name: 영어
       link: /
       lang: en
-    - name: Korean
+    - name: 한국어
       link: /ko/
       lang: kr
-
+      
 extra_css:
 - css/termynal.css
 - css/custom.css

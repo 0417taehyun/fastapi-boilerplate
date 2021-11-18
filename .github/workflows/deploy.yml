@@ -33,9 +33,15 @@ jobs:
           source $HOME/.poetry/env
           poetry add git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
 
+      - name: Build Docs
+        run : |
+          source $HOME/.poetry/env
+          poetry run mkdocs build --clean -f mkdocs.yml & poetry run mkdocs build --clean -f mkdocs-ko.yml
+
       - name: Deploy
         run: |
           source $HOME/.poetry/env
-          poetry run mkdocs gh-deploy --force
+          poetry run ghp-import -p ./site --force
+
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}

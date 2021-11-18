@@ -26,8 +26,8 @@ Here is a list of boilerplates.
 
 |Directory|Description|Branch|Status|
 |:-------:|:--------:|:-----:|:----:|
-|[01](./Repository/01/)|[Plain synchronous RESTful API](https://fastapi.weekwith.me/plain-synchronous-restful-api/)|`plain-synchronous-restful-api`|:construction:|
-|[02](./Repository/02/)|[Plain asynchronous RESTful API](https://fastapi.weekwith.me/plain-asynchronous-restful-api/)|`plain-asynchronous-restful-api`|:construction:|
+|[01](./Repository/01/)|[Simple synchronous RESTful API](https://fastapi.weekwith.me/simple-synchronous-restful-api/)|`simple-synchronous-restful-api`|:construction:|
+|[02](./Repository/02/)|[Simple asynchronous RESTful API](https://fastapi.weekwith.me/simple-asynchronous-restful-api/)|`simple-asynchronous-restful-api`|:construction:|
 
 
 ### Issues

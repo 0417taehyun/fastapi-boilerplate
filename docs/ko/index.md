@@ -1,38 +1,36 @@
 ---
-title: "FastAPI Boilerplate Collection"
-description: "The List of FastAPI Boilerplate like using Sentry, CircleCI, Alembic, GitHub Actions, WebSocket, etc."
+title: "FastAPI 보일러플레이트 모음"
+description: "Sentry, CircleCI, Alembic, GitHub Actions, WebSocket 기타 등등을 사용한 FastAPI 보일러플레이트 목록."
 ---
 
-# FastAPI Boilerplate Collection
+# FastAPI 보일러플레이트 모음
 
 <a href="https://github.com/0417taehyun/fastapi-boilerplate" target="_blank"><img src="/images/background.png" /></a>
 
-## Boilerplate List
+## 보일러플레이트 목록
 
-Here is a list of boilerplate.
+여기 보일러플레이트 목록이 있습니다.
 
-* **Description** : A short description of boilerplate. You can move to specification of it by click.
-* **Branch** : You can clone a specific boilerplate by branch.
-* **Status** :
-    * :white_check_mark: which means **Complete**
-    * :construction: which means **Work In Progress**
-    * :see_no_evil: which means **Not Start**  
-* **Last Updated** : Last updated date.
+* **설명** : 보일러플레이트에 관한 간단한 설명입니다. 클릭하여 상세 설명 페이지로 이동할 수 있습니다.
+* **브랜치** : 브랜치를 사용하여 특정 보일러플레이트를 복제할 수 있습니다.
+* **상태** :
+    * :white_check_mark: **완성**을 의미합니다.
+    * :construction: **작업 진행 중**을 의미합니다.
+    * :see_no_evil: **시작하지 않음**을 의미합니다.
+* **마지막 수정** : 마지막 수정 일자를 의미합니다.
 
-
-
-|Description|Branch|Status|Last Updated|
+|설명|브랜치|상태|마지막 수정|
 |:--------:|:-----:|:----:|:----------:|
-|[Plain synchronous RESTful API](plain-synchronous-restful-api.md)|`plain-synchronous-restufl-api`|:construction:|November 18th, 2021|
-|[Plain asynchronous RESTful API](plain-asynchronous-restful-api.md)|`plain-asynchronous-restufl-api`|:construction:|November 18th, 2021|
+|[간단한 동기적 RESTful API](simple-synchronous-restful-api.md)|`simple-synchronous-restufl-api`|:construction:|November 18th, 2021|
+|[간단한 비동기적 RESTful API](simple-asynchronous-restful-api.md)|`simple-asynchronous-restufl-api`|:construction:|November 18th, 2021|
 
-## Clone a specific boilerplate
+## 특정 보일러플레이트 복제
 
-Clone a specific boilerplate using branch which looks like ...
+브랜츠를 사용하여 특정 보일러플레이트를 복제하는 건 다음과 같습니다 ...  
 
 <div class="termy">
     ```sh
-    $ git clone -b plain-synchronous-restful-api https://github.com/0417taehyun/fastapi-boilerplate.git
+    $ git clone -b simple-synchronous-restful-api https://github.com/0417taehyun/fastapi-boilerplate.git
 
     Cloning into 'fastapi-boilerplate'...
     remote: Enumerating objects: 138, done.
@@ -44,9 +42,9 @@ Clone a specific boilerplate using branch which looks like ...
     ```
 </div>
 
-## Install packages
+## 패키지 설치
 
-Install packages which looks like ...
+패키지 설치는 다음과 같습니다 ...  
 
 !!! warning
 
